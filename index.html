@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fd2f5d184.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <!-- <img src="img/images.png" class="logo"> -->
+                <p class="logo"><span>Port</span>folio</p>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Manish Kumar</span><br>from New Delhi</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/ManishKumar.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Manish Kumar . I completed my BCA at IGNOU University, New Delhi 
+                       . I am good in java and C++ language with data structures.
+                       I have a intrest in application development area.I love to create beutiful applications.I am self motivated person. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('project')">Projects</p>
+				<p class="tab-links " onclick="opentab('education')">Education</p>
+				
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>HTML5</li>
+                            <li><span>CSS</span><br>SASS</li>
+                            <li><span>JAVA SCRIPT</span><br>BASIC JS</li>
+                            <li><span>BOOTSTRAP</span><br>BASIC LEVEL</li>
+                            <li><span>C++</span><br>Advanced</li>
+				    <li><span>Core Java, Java Swing, Java AWT</span><br>Advanced</li>
+                            <li><span>SQL</span><br>intermediate level</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>SpeckyFox Technologies India Pvt Ltd – [Software Quality Engineer] [Oct 2022 – Apr 2023] 
+</span><br> Performed Manual Testing and Created test cases including
+Functional and Regression Test cases.
+ Preparing and executing Test Scenarios, Test Cases, Test Scripting for
+module, integration and system testing and analysis
+ Execution of Test Cases and Defect Reporting.
+ API testing using Postman.
+ Performed testing of Web portal in different devices and browsers.
+ Collected project information and submitted all reports to lead
+developer.
+ Used SQL queries for database verification and validation.
+</li>
+                            <li><span>Vertex Group – [Customer Support Associate-Gujarati Specialist] [Apr 2022 – Sep 2022]<br></span>Handle customer complaint regarding Realme Products and Provide
+trouble shooting steps to customer and Handle complaint of
+customer. </li>
+                            <li><span>MattsenKumar LLC. – [Data Entry Quality] [Feb 2022 - Mar 2022 (1 month contract)]</span><br>Maintain Quality data of employee </li>
+
+<li><span>One Point One Pvt Ltd. – [Customer Support Associate] [Aug 2021 - Dec 2021]</span><br>Handle customer complaint regarding Jaquar Products  </li>
+                            
+
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>[ResWare] [Domain: real estate] [Role: QA Engineer] [Team Size: 5] 
+</span><br>Resware is a powerful workflow automation platform for the title and escrow industry. It is a
+sophisticated, yet flexible solution providing smart and scalable workflows, a secure
+collaboration portal, numerous service provider and bank integrations,<br> Performed Manual Testing and Created test cases including Functional
+and Regression Test cases.
+ Prepared System Test Cases against the Functional Specification.
+ Executed System Test Cases to check the functionality of the
+application.
+ Tested the application on Mobile Devices (iOS and Android).
+ Used Browser stack for testing the application on variety of mobile
+device combinations.
+ Generated the test defects report and reported it to the development
+team for Bug fixing.
+ Estimate upcoming Testing Projects by discussing with Supervisor and
+teammates.
+ Reviewing Test Cases written by team members
+ Planning of Test Schedule as per timeline of the projects.
+ Execution of Test Cases and Defect Reporting.
+ Used SQL queries for database verification and validation. 
+</li>
+				<li><span>[WizeGain] [Domain: Media/E-Commerce] [Role: QA Engineer] [Team Size: 4]</span><br>WizeGain is Event managing application with the help of this admin can create event and user
+can use user app and accept the event.
+<br> Performed Manual Testing and Created test cases including Functional
+and Regression Test cases.
+ Performed testing of Web portal in different devices and browsers.
+ API testing using Postman.
+ Cross browser testing (Browser Stack) of web pages.
+ Actively participated in requirements, design, and UI specifications
+review meetings.
+ Created, designed, and executed Test Plans, Test Scenarios, Test Cases
+and Test Reports.
+ Collected project information and submitted all reports to lead
+developer. 
+</li>
+				<li><span>[Minor Project - Bank Management System]</span><br>Using of core java are Oops concepts, constructor, exceptional handling, multithreading, Java AWT, Java Swing, packages, JDBC Connection, MYSQL<br>https://github.com/iTs-Mantrin/BankManagementSystem</li>
+				<li><span>[Major Project - University Management System]</span><br>Using of core java are Oops concepts, constructor, exceptional handling, multithreading, Java AWT, Java Swing, packages, JDBC Connection, MYSQL,
+Google Cloud<br>https://github.com/iTs-Mantrin/UniversityManagementSystem
+</li>
+
+                            
+
+                        </ul>
+
+                    </div>
+<div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>[Indira Gandhi National open University, New Delhi]</span><br>[2019 - 2023]<br>
+I have passed my Bachelors in Computer Application with 60 % marks.</li>
+                            <li><span>[F-Tech, Kapashera, New Delhi]</span><br>[2019-20]<br>ITC Diploma 80</li>
+				    <li><span>[Jawahar Navodaya Vidyalaya Jaffarpur Kalan, New Delhi - CBSE ]</span><br>[2018 - 2019]<br>I have passed my Intermediate with 70%marks from the Central Board of
+Secondary, New Delhi.</li>
+				    <li><span>[Jawahar Navodaya Vidyalaya Jaffarpur Kalan, New Delhi - CBSE ]</span><br>[2016 - 2017]<br>I have passed my High School with 8.5 CGPA marks from the Central Board of
+Secondary, New Delhi </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------services------------- -->
+    <div id="services">
+        <div class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Game Design</h2>
+                        <p> A video game designer imagines almost everything about a game, including its plots, characters, visual designs, and layouts. Designers meet with different teams and create a cohesive vision.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/web.jpg">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>The App connect you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/uiux.jpg">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>This app will give you lots of relaxation when you are tired or bore.so hurryup..download it
+                            from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/game.jpg">
+                    <div class="layer">
+                        <h3>Game application</h3>
+                        <p>here, this is the best game app i know you will definetly enjoy.Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/clock web.jpg">
+                    <div class="layer">
+                        <h3>Clock Website</h3>
+                        <p>here ,this is the best clock website i know you will definetly enjoy.Download it from play
+                            store </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titleC">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manish.rajput62647457@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9599640737</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/itsmantrin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://github.com/iTs-Mantrin"><i class="fa-brands fa-hackerrank"></i></a>
+
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ZB-h5Lc_yG1sbC4efs0i2ElLf9GHp04L/view?usp=share_link" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>@Manish Kumar <i class="fa-solid fa-heart"></i></p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = '#'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                    
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
